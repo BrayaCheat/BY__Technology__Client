@@ -95,7 +95,7 @@ const onGoogleLogin = async () => {
           router.push("/Dashboard");
         }, 1000);
       });
-    });
+    }).catch((error) => console.log(error))
   } catch (error) {
     console.log(error);
   }
