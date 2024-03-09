@@ -51,8 +51,8 @@ import HomeCardsVue from "../components/HomeCards.vue";
 import Contact from "@/components/Contact.vue";
 
 const endPoints = ["Entertainment", "Technology", "Society", "Sports"];
-const base_Photo_URL = "http://localhost:3000/uploads/";
-const baseURL = "http://localhost:3000/BYAPI/v1/limit/";
+const base_Photo_URL = "https://by-technology-server.onrender.com/uploads/";
+const baseURL = "https://by-technology-server.onrender.com/BYAPI/v1";
 const Photos = ref([]);
 const contact__Pic = ref('/12953408_isometric_27.jpg')
 
